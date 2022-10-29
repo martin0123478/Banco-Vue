@@ -37,7 +37,7 @@
                 <div class="principal">
             
           
-           <router-view/> //router para rutas hijas de rh
+           <router-view/> 
 
        
         </div>
