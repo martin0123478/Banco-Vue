@@ -13,6 +13,10 @@ npm install -g json-server
 json-server --watch db.json
 in node js terminal
 ```
+## Run server
+```
+npm run serve
+```
 ### Access
 ```
 Recursos Humanos: 
