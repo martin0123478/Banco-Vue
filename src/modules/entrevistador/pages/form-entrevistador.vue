@@ -69,7 +69,7 @@ export default {
                 }
                 console.log(data)
       this.updateCandidato(data) //accion para actualizar los nuevos valores del candidato
-       
+       this.$router.push({name:'tabla-ent'})
     }
    
 
