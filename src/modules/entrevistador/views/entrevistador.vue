@@ -37,7 +37,7 @@
                 <div class="principal">
             
           
-           <router-view/> //router para rutas hijas de entrevistas
+           <router-view/> 
 
        
         </div>
