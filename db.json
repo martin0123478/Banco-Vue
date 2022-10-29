@@ -1,0 +1,149 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "candidatos": [
+    {
+      "nombre": "Daniela Ramírez",
+      "posicion": "Backend",
+      "entrevistador": "Ernesto Fuentes",
+      "fecha": "2022-09-20",
+      "estatus": "Aceptada",
+      "experiencia": "",
+      "tecnologias": "",
+      "nivel_candidato": "",
+      "cumple_Si": "",
+      "cumple_No": "",
+      "comentarios": "",
+      "id": 4
+    },
+    {
+      "nombre": "Montserrat Rojas",
+      "posicion": "Frontend",
+      "entrevistador": "Fernanda Gómez",
+      "fecha": "2022-09-28",
+      "estatus": "Entrevista",
+      "experiencia": "",
+      "tecnologias": "",
+      "nivel_candidato": "",
+      "cumple_Si": "",
+      "cumple_No": "",
+      "comentarios": "",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "nombre": "Jaime",
+      "posicion": "Frontend",
+      "entrevistador": "Fernanda Gómez",
+      "fecha": "2022-09-28",
+      "estatus": "Entrevista",
+      "experiencia": "3años",
+      "tecnologias": "java",
+      "nivel_candidato": "junior",
+      "cumple_Si": "",
+      "cumple_No": "",
+      "comentarios": "si se queda"
+    },
+    {
+      "id": 89.69973030565504,
+      "nombre": "Luis",
+      "posicion": "Fronntedn",
+      "entrevistador": "Flor",
+      "fecha": "2022-11-03",
+      "estatus": "aceptado"
+    },
+    {
+      "id": 59.15498149873552,
+      "nombre": "Flor",
+      "posicion": "Backend",
+      "entrevistador": "Luis",
+      "fecha": "2022-11-03",
+      "estatus": "aceptado",
+      "tecnologias": "",
+      "nivel_candidato": "",
+      "cumple_Si": "",
+      "cumple_No": "",
+      "comentarios": ""
+    }
+  ],
+  "entrevista": [
+    {
+      "id": 4,
+      "entrevistado": "Jose",
+      "entrevistador": "Pedro",
+      "fecha": "2022-09-12",
+      "especialidad": "Ingeniero TI",
+      "experiencia": "2 año",
+      "encargado": "Tonatiuh",
+      "cv": "cv.pdf"
+    },
+    {
+      "id": 6,
+      "entrevistador": "Jaime Lopez",
+      "fecha": "12/10/22",
+      "entrevistado": "Daniela",
+      "especialidad": "Backend",
+      "experiencia": "5 años",
+      "encargado": "Daniela",
+      "cv": "cv.pdf"
+    },
+    {
+      "id": 19,
+      "entrevistado": "Juan",
+      "entrevistador": "Julia",
+      "fecha": "2022-09-29",
+      "especialidad": "Informatica",
+      "experiencia": "3años",
+      "cv": "cv.pdf",
+      "encargado": "Luis"
+    },
+    {
+      "id": 81,
+      "entrevistado": "luisa",
+      "entrevistador": "Luis",
+      "fecha": "2022-09-30",
+      "especialidad": "Informatica",
+      "experiencia": "5",
+      "cv": "cv.pdf",
+      "encargado": "Luis"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Jorge",
+      "correo": "jorge@mail.com",
+      "password": "1234",
+      "tipoUsuario": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "Giovanni",
+      "correo": "giovanni@mail.com",
+      "password": "1234",
+      "tipoUsuario": "entrevistador"
+    },
+    {
+      "id": 3,
+      "nombre": "Martin",
+      "correo": "martin@mail.com",
+      "password": "1234",
+      "tipoUsuario": "rh"
+    }
+  ]
+}

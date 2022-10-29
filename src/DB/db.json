@@ -1,0 +1,156 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "candidatos": [
+    {
+      "nombre": "Martín Aguilar",
+      "posicion": "Frontend Developer",
+      "entrevistador": "Juan Lopez",
+      "estatus": "Aceptado",
+      "fecha": "12/10/22",
+      "experiencia": "1",
+      "tecnologias": "junior",
+      "nivel_candidato": "Programador senior",
+      "cumple_Si": true,
+      "cumple_No": false,
+      "comentarios": "si",
+      "id": 1
+    },
+    {
+      "nombre": "Fernando López",
+      "posicion": "Analyst",
+      "entrevistador": "Rogelio Dominguez",
+      "estatus": "Rechazado",
+      "fecha": "2022-09-20",
+      "experiencia": "5 años",
+      "tecnologias": "Java",
+      "nivel_candidato": "Programador semi senior",
+      "cumple_Si": true,
+      "cumple_No": false,
+      "comentarios": "Buen nivel de java ",
+      "id": 3
+    },
+    {
+      "nombre": "Daniela Ramírez",
+      "posicion": "Backend",
+      "entrevistador": "Ernesto Fuentes",
+      "fecha": "2022-09-20",
+      "estatus": "Aceptada",
+      "experiencia": "",
+      "tecnologias": "",
+      "nivel_candidato": "",
+      "cumple_Si": "",
+      "cumple_No": "",
+      "comentarios": "",
+      "id": 4
+    },
+    {
+      "nombre": "Montserrat Rojas",
+      "posicion": "Frontend",
+      "entrevistador": "Fernanda Gómez",
+      "fecha": "2022-09-28",
+      "estatus": "Entrevista",
+      "experiencia": "",
+      "tecnologias": "",
+      "nivel_candidato": "",
+      "cumple_Si": "",
+      "cumple_No": "",
+      "comentarios": "",
+      "id": 5
+    },
+    {
+      "nombre": "Saul lopez",
+      "posicion": "Backend",
+      "entrevistador": "Danielflores",
+      "estatus": "Entrevista",
+      "fecha": "2022-10-27",
+      "experiencia": "5 años",
+      "tecnologias": "Java",
+      "nivel_candidato": "Programador junior",
+      "cumple_Si": true,
+      "cumple_No": false,
+      "comentarios": "Buen nivel de Java",
+      "id": 6
+    }
+  ],
+  "entrevista": [
+    {
+      "id": 3,
+      "entrevistador": "Pedro",
+      "fecha": "2022-09-12",
+      "entrevistado": "Belen",
+      "especialidad": "Sistemas",
+      "experiencia": "1 año",
+      "encargado": "Arturo",
+      "cv": "cv3.pdf"
+    },
+    {
+      "id": 4,
+      "entrevistador": "Yair",
+      "fecha": "2022-09-12",
+      "entrevistado": "Jose",
+      "especialidad": "Ingeniero TI",
+      "experiencia": "2 año",
+      "encargado": "Tonatiuh",
+      "cv": "cv.pdf"
+    },
+    {
+      "id": 5,
+      "entrevistador": "florecita",
+      "fecha": "2022-10/25",
+      "entrevistado": "Julia",
+      "especialidad": "Informatica",
+      "experiencia": "5",
+      "encargado": "el chapo",
+      "cv": "cv.pdf"
+    },
+    {
+      "id": 6,
+      "entrevistador": "Jaime Lopez",
+      "fecha": "12/10/22",
+      "entrevistado": "Daniela",
+      "especialidad": "Backend",
+      "experiencia": "5 años",
+      "encargado": "Daniela",
+      "cv": "cv.pdf"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Jorge",
+      "correo": "jorge@mail.com",
+      "password": "1234",
+      "tipoUsuario": "admin"
+    },
+    {
+      "id": 2,
+      "nombre": "Giovanni",
+      "correo": "giovanni@mail.com",
+      "password": "1234",
+      "tipoUsuario": "entrevistador"
+    },
+    {
+      "id": 3,
+      "nombre": "Martin",
+      "correo": "martin@mail.com",
+      "password": "1234",
+      "tipoUsuario": "rh"
+    }
+  ]
+}
