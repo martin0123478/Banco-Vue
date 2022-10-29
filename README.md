@@ -13,7 +13,18 @@ npm install -g json-server
 json-server --watch db.json
 in node js terminal
 ```
-
+### Access
+```
+Recursos Humanos: 
+martin@mail.com
+12345
+Entrevistador:
+giovanni@mail.com
+12345
+Super Usuario:
+jorge@mail.com
+12345
+```
 ### Compiles and hot-reloads for development
 ```
 npm run serve
